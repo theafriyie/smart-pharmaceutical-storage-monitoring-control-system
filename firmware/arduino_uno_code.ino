@@ -13,9 +13,9 @@ LiquidCrystal_I2C_Hangul lcd(0x27,16,2); //LCD
 
 // Thresholds
 #define TEMP_MIN 15.0
-#define TEMP_MAX 35.0
+#define TEMP_MAX 30.0
 #define HUMIDITY_MIN 30.0
-#define HUMIDITY_MAX 75.0
+#define HUMIDITY_MAX 60.0
 
 DHT dht(DHTPIN, DHTTYPE);
 
